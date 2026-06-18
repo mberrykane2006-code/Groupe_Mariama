@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> paiement </title>
+</head>
+<body>
+    <fieldset><legend><h1>Formulaire de paiement</h1></legend>
+    <form action="" method="">
+        <label for="matricule">Matricule</label>
+        <input type="text" id="matricule" name="matricule" required><br><br>
+
+        <label for="profil">Filière</label>
+        <select id="profil" name="profil" required>
+            <option value="">-- Sélectionnez une filière --</option>
+            <option value="droit">Droit</option>
+            <option value="management">Management</option>
+            <option value="ingenierie">Ingénierie</option>
+            <option value="art">Art</option>
+            <option value="finance">Finance</option>
+            <option value="GRH">GRH</option>
+            <option value="compta">compta</option>
+        </select><br><br>
+
+        <label for="niveau">Niveau</label>
+       <select name="niveau" id="niveau" required>
+            <option value="">-- Sélectionnez votre niveau --</option>
+            <option value="licence">Licence 1</option>
+            <option value="licence2">Licence 2</option>
+            <option value="licence3">Licence 3</option>
+            <option value="master">Master1</option>
+            <option value="master2">Master2</option>
+        </select><br><br>
+
+
+        <label for="montant">Montant</label>
+        <input type="text" id="montant" name="montant" required><br><br>
+
+         <label for="objet">Objet</label>
+        <input type="text" id="objet" name="objet" required><br><br>
+
+        <label for="date">Date</label>
+        <input type="text" id="date" name="date" required><br><br>
+
+        <input type="submit" value="ENREGISTRER">
+    </form>
+    </fieldset>
+</body>
+</html>
